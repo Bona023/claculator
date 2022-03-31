@@ -18,7 +18,7 @@ body {
 }
 
 .cal-body {
-    width: 27vw;
+    width: 26vw;
     height: 67vh;
     padding: 1vw;
     border-radius: 2vw;
@@ -31,12 +31,12 @@ body {
 }
 
 .cal-result {
-    margin-bottom: 1vh;
+    margin-bottom: 1.5vh;
 }
 
 #operator {
-    width: 5vw;
-    height: 10vh;
+    width: 4vw;
+    height: 8vh;
     text-align: center;
     border-radius: 1vw;
     border-style: none;
@@ -45,7 +45,7 @@ body {
 #result {
     font-family: "LAB디지털";
     width: 18vw;
-    height: 10vh;
+    height: 8vh;
     text-align: right;
     border-radius: 1vw;
     border-style: none;
