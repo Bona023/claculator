@@ -35,6 +35,8 @@ body {
 }
 
 #operator {
+    font-size: 1.5rem;
+    line-height: 1.5;
     width: 4vw;
     height: 8vh;
     text-align: center;
@@ -44,7 +46,7 @@ body {
 
 #result {
     font-family: "LAB디지털";
-    font-size: 1rem;
+    font-size: 1.3rem;
     width: 18vw;
     height: 8vh;
     text-align: right;
