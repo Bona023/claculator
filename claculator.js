@@ -7,6 +7,9 @@ const $result = document.querySelector("#result");
 //* 숫자 저장하기 (버튼 안의 문자를 가져와서 코드 줄이기)
 const onClickNumber = (event) => {
     if (operator) {
+        if (!numTwo) {
+            $result.value = ""; //^ numTwo에 값이 없을 때 numTwo를 입력하면 화면 비우기
+        }
         numTwo += event.target.textContent;
     } else {
         numOne += event.target.textContent;
