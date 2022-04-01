@@ -44,6 +44,7 @@ body {
 
 #result {
     font-family: "LAB디지털";
+    font-size: 1rem;
     width: 18vw;
     height: 8vh;
     text-align: right;
